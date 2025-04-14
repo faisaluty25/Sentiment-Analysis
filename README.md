@@ -62,3 +62,20 @@ Both evaluation strategies (split and cross-validation) were compared to ensure 
 **Validation and test metrics were close**, indicating a **well-generalized model**.
 
 ### ✅ **Validation Results**
+          precision    recall  f1-score   support
+
+      -1       0.88      0.89      0.89      3629
+       0       0.92      0.85      0.88      3826
+       1       0.82      0.89      0.85      3285
+
+accuracy                           0.87     10740
+
+
+### ✅ **Test Results**
+          precision    recall  f1-score   support
+
+      -1       0.88      0.89      0.88      4680
+       0       0.93      0.85      0.88      4710
+       1       0.82      0.88      0.85      4035
+
+accuracy                           0.87     13425
